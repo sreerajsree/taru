@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero renders and matches snapshot 1`] = `
+<DocumentFragment>
+  <section
+    id="hero"
+  >
+    <div
+      class="w-screen h-screen md:bg-fixed flex justify-center items-center flex-col font-title bg-cover bg-top"
+      style="background-image: url(test-file-stub);"
+    >
+      <h1
+        class="text-center text-7xl block"
+      >
+        Ameira Yanni
+      </h1>
+      <p
+        class="block mt-5 mb-20 flex items-center text-xl"
+        style="opacity: 1; transform: scale(0) translateZ(0);"
+      >
+        <span
+          style="opacity: 0; transform: translateY(20px) translateZ(0);"
+        >
+          copywriter
+        </span>
+        <span
+          class="rounded-full inline-block h-2 w-2 mx-2 mt-1 bg-black"
+          style="opacity: 0; transform: translateY(20px) translateZ(0);"
+        />
+        <span
+          style="opacity: 0; transform: translateY(20px) translateZ(0);"
+        >
+          actor
+        </span>
+        <span
+          class="rounded-full inline-block h-2 w-2 mx-2 mt-1 bg-black"
+          style="opacity: 0; transform: translateY(20px) translateZ(0);"
+        />
+        <span
+          style="opacity: 0; transform: translateY(20px) translateZ(0);"
+        >
+          creative
+        </span>
+      </p>
+    </div>
+  </section>
+</DocumentFragment>
+`;

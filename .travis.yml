@@ -1,0 +1,26 @@
+language: node_js
+node_js:
+  - 12
+cache:
+  directories:
+  - node_modules
+script:
+  - npm run eslint
+  - npm run test:codecov
+  - npm run build
+  - npm run export
+  - touch out/.nojekyll
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $github_token
+  local_dir: out
+  fqdn: ameira.me
+  on:
+    branch: master
+notifications:
+  email:
+    recipients:
+    - j@wallis.dev
+    on_success: change
+    on_failure: always
