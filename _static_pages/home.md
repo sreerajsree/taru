@@ -2,7 +2,7 @@
 title: Taru Goswami
 tagline:
   - content creator
-  - ""
+  - philocalist
 aboutImageDesktop: ameira.jpg
 aboutImageMobile: ameira-garden.jpg
 heroBackgroundImage: v1014-bg-002a.jpg
