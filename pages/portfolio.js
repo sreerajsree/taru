@@ -7,13 +7,13 @@ export default function Index({ articles }) {
   return (
     <Layout>
       <NextSeo
-        title="Portfolio"
-        description="Ameira Yanni's Portfolio documenting works that she has crafted while working as either a copywriter, actor or creative."
-        canonical="https://ameira.me/portfolio"
+        title="Blog"
+        description="Taru Goswami's Blog documenting works that she has crafted while working as either a content creator, actor or creative."
+        canonical="https://tarugoswami.netlify.app/portfolio"
         openGraph={{
-          url: 'https://ameira.me/portfolio',
-          title: 'Portfolio',
-          description: 'Ameira Yanni\'s Portfolio documenting works that she has crafted while working as either a copywriter, actor or creative.',
+          url: 'https://tarugoswami.netlify.app/portfolio',
+          title: 'Blog',
+          description: 'Taru Goswami\'s Blog documenting works that she has crafted while working as either a content creator, actor or creative.',
         }}
       />
       <div className="pt-12 md:pt-24 text-center mb-4 md:mb-10">

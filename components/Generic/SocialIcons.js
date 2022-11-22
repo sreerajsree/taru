@@ -10,12 +10,12 @@ const socials = [
   {
     id: 'linkedin',
     Icon: FaLinkedinIn,
-    href: 'https://www.linkedin.com/',
+    href: 'https://www.linkedin.com/in/tarugoswami/',
   },
   {
     id: 'instagram',
     Icon: FaInstagram,
-    href: 'https://www.instagram.com/',
+    href: 'https://www.instagram.com/tarugoswami',
   },
 ];
 

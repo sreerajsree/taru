@@ -20,14 +20,14 @@ export default function MyApp({ Component, pageProps }) {
           site_name: 'Taru Goswami',
           images: [
             {
-              url: 'https://ameira.me/ameira.jpg',
+              url: 'https://ameira.me/taru.jpg',
               width: 800,
               height: 512,
-              alt: 'Ameira Yanni',
+              alt: 'Taru Goswami',
             },
             {
               url: 'https://ameira.me/logo.png',
-              alt: 'AY Logo',
+              alt: 'Taru Goswami Logo',
             },
           ],
         }}

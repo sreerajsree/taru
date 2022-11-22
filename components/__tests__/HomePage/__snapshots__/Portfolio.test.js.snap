@@ -46,7 +46,7 @@ exports[`Portfolio renders and matches snapshot 1`] = `
               'excerpt'
             </p>
             <a
-              class="group relative inline-flex items-center overflow-hidden px-8 py-3 mt-6 md:mt-8  focus:outline-none focus:ring border-solid border border-black font-body text-base hover:bg-black hover:text-pink-custom"
+              class="group relative inline-flex items-center overflow-hidden px-8 py-3 mt-6 md:mt-8 focus:outline-none border-solid border border-black font-body text-base hover:bg-black hover:text-pink-custom"
               href="/download"
             >
               <span

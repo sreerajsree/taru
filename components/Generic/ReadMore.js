@@ -7,8 +7,7 @@ export default function ReadMore({ slug, className: propClasses }) {
       href={{ pathname: '/portfolio/[slug]', query: { internalLink: true } }}
     >
       <a
-        className={`group relative inline-flex items-center overflow-hidden border-solid border px-10 py-3 focus:outline-none focus:ring active:bg-indigo-500 ${propClasses}`}
-        href="/download"
+        className={`group relative inline-flex items-center overflow-hidden border-solid border px-10 py-3 focus:outline-none  ${propClasses}`}
       >
         <span className="absolute right-0 translate-x-full transition-transform group-hover:-translate-x-4">
           <svg

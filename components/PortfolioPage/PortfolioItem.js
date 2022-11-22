@@ -51,7 +51,7 @@ export default function PortfolioItem(props) {
             {excerpt}
             &apos;
           </p>
-          <ReadMore slug={slug} className="md:absolute md:bottom-0 md:mb-16 border-pink-custom text-pink-custom hover:text-grey-custom hover:bg-pink-custom" />
+          <ReadMore slug={slug} className="mt-4 md:absolute md:bottom-0 md:mb-16 border-pink-custom text-pink-custom hover:text-grey-custom hover:bg-pink-custom" />
         </div>
       </motion.div>
     </div>

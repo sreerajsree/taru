@@ -30,7 +30,7 @@ export default function PortfolioItemText(props) {
         </p>
         <Link href={{ pathname: '/portfolio', query: { internalLink: true } }}>
           <a
-            className="group relative inline-flex items-center overflow-hidden px-8 py-3 mt-6 md:mt-8  focus:outline-none focus:ring border-solid border border-black font-body text-base hover:bg-black hover:text-pink-custom"
+            className="group relative inline-flex items-center overflow-hidden px-8 py-3 mt-6 md:mt-8 focus:outline-none border-solid border border-black font-body text-base hover:bg-black hover:text-pink-custom"
             href="/download"
           >
             <span className="absolute right-0 translate-x-full transition-transform group-hover:-translate-x-4">

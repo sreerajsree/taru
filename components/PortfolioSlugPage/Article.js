@@ -19,8 +19,8 @@ export default function Article({
       </p>
       <PrintMarkdownHTML content={content} />
       <Link href={{ pathname: '/portfolio', query: { internalLink: true } }}>
-        <a className="px-4 py-2 my-8 md:my-8 border-solid border border-black font-body text-base hover:bg-black hover:text-pink-custom ease-in-out transition duration-500">
-          Back to Portfolio
+        <a className="px-8 py-2 my-8 md:my-8 border-solid border border-black font-body text-base hover:bg-black hover:text-pink-custom ease-in-out transition duration-500">
+          Back to Blog
         </a>
       </Link>
     </article>

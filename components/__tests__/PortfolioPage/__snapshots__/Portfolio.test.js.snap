@@ -50,8 +50,8 @@ exports[`Hero renders and matches snapshot 1`] = `
               'excerpt'
             </p>
             <a
-              class="group relative inline-flex items-center overflow-hidden border-solid border px-10 py-3 focus:outline-none focus:ring active:bg-indigo-500 md:absolute md:bottom-0 md:mb-16 border-pink-custom text-pink-custom hover:text-grey-custom hover:bg-pink-custom"
-              href="/download"
+              class="group relative inline-flex items-center overflow-hidden border-solid border px-10 py-3 focus:outline-none  mt-4 md:absolute md:bottom-0 md:mb-16 border-pink-custom text-pink-custom hover:text-grey-custom hover:bg-pink-custom"
+              href="/portfolio/slug"
             >
               <span
                 class="absolute right-0 translate-x-full transition-transform group-hover:-translate-x-4"
@@ -124,8 +124,8 @@ exports[`Hero renders and matches snapshot 1`] = `
               'excerpt'
             </p>
             <a
-              class="group relative inline-flex items-center overflow-hidden border-solid border px-10 py-3 focus:outline-none focus:ring active:bg-indigo-500 md:absolute md:bottom-0 md:mb-16 border-pink-custom text-pink-custom hover:text-grey-custom hover:bg-pink-custom"
-              href="/download"
+              class="group relative inline-flex items-center overflow-hidden border-solid border px-10 py-3 focus:outline-none  mt-4 md:absolute md:bottom-0 md:mb-16 border-pink-custom text-pink-custom hover:text-grey-custom hover:bg-pink-custom"
+              href="/portfolio/slug"
             >
               <span
                 class="absolute right-0 translate-x-full transition-transform group-hover:-translate-x-4"
