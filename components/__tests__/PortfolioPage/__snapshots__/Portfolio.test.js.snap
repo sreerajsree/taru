@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero renders and matches snapshot 1`] = `
+<DocumentFragment>
+  <section>
+    <div
+      class="flex flex-row flex-wrap justify-center flex-1"
+    >
+      <div
+        class="flex flex-col xl:w-1/4 lg:w-33% md:w-50% p-2"
+      >
+        <div
+          class="flex flex-col h-full"
+          style="opacity: 0; transform: translateY(300px) translateZ(0);"
+        >
+          <div
+            class="bg-center bg-cover h-50vh relative"
+            style="background-image: url(test-file-stub);"
+          >
+            <div
+              class="absolute top-0 left-0 bg-img-tint h-full w-full flex justify-center items-center"
+            >
+              <h2
+                class="text-2xl p-2 md:px-16 font-title text-center text-white"
+              >
+                title
+              </h2>
+            </div>
+          </div>
+          <div
+            class="w-full flex items-center justify-top flex-col text-center bg-grey-custom pb-12 md:pb-32 flex-1 relative"
+          >
+            <p
+              class="text-base md:text-lg font-title pb-2 pt-4 md:pt-6 md:pb-4"
+            >
+              <time
+                datetime="2019-10-10T00:00:00"
+              >
+                October, 2019
+              </time>
+            </p>
+            <p
+              class="text-base md:text-lg font-body py-2 md:py-3 px-4 md:px-6 lg:px-8"
+            >
+              desc
+            </p>
+            <p
+              class="text-base md:text-lg font-body py-2 md:py-3 px-4 md:px-6 lg:px-8"
+            >
+              'excerpt'
+            </p>
+            <a
+              class="group relative inline-flex items-center overflow-hidden border-solid border px-10 py-3 focus:outline-none focus:ring active:bg-indigo-500 md:absolute md:bottom-0 md:mb-16 border-pink-custom text-pink-custom hover:text-grey-custom hover:bg-pink-custom"
+              href="/download"
+            >
+              <span
+                class="absolute right-0 translate-x-full transition-transform group-hover:-translate-x-4"
+              >
+                <svg
+                  class="h-5 w-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </span>
+              <span
+                class="text-sm font-medium transition-all group-hover:mr-4"
+              >
+                Read more
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-col xl:w-1/4 lg:w-33% md:w-50% p-2"
+      >
+        <div
+          class="flex flex-col h-full"
+          style="opacity: 0; transform: translateY(300px) translateZ(0);"
+        >
+          <div
+            class="bg-center bg-cover h-50vh relative"
+            style="background-image: url(test-file-stub);"
+          >
+            <div
+              class="absolute top-0 left-0 bg-img-tint h-full w-full flex justify-center items-center"
+            >
+              <h2
+                class="text-2xl p-2 md:px-16 font-title text-center text-white"
+              >
+                title2
+              </h2>
+            </div>
+          </div>
+          <div
+            class="w-full flex items-center justify-top flex-col text-center bg-grey-custom pb-12 md:pb-32 flex-1 relative"
+          >
+            <p
+              class="text-base md:text-lg font-title pb-2 pt-4 md:pt-6 md:pb-4"
+            >
+              <time
+                datetime="2019-10-10T00:00:00"
+              >
+                October, 2019
+              </time>
+            </p>
+            <p
+              class="text-base md:text-lg font-body py-2 md:py-3 px-4 md:px-6 lg:px-8"
+            >
+              desc
+            </p>
+            <p
+              class="text-base md:text-lg font-body py-2 md:py-3 px-4 md:px-6 lg:px-8"
+            >
+              'excerpt'
+            </p>
+            <a
+              class="group relative inline-flex items-center overflow-hidden border-solid border px-10 py-3 focus:outline-none focus:ring active:bg-indigo-500 md:absolute md:bottom-0 md:mb-16 border-pink-custom text-pink-custom hover:text-grey-custom hover:bg-pink-custom"
+              href="/download"
+            >
+              <span
+                class="absolute right-0 translate-x-full transition-transform group-hover:-translate-x-4"
+              >
+                <svg
+                  class="h-5 w-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </span>
+              <span
+                class="text-sm font-medium transition-all group-hover:mr-4"
+              >
+                Read more
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;
