@@ -19,7 +19,7 @@ exports[`Navigation matches snapshot 1`] = `
         </h2>
         <img
           alt="logo"
-          class="h-7 w-7 ml-2 mr-3 animate-pulse"
+          class="h-7 w-7 ml-2 mr-6 animate-pulse"
           src="/assets/butterfly.svg"
         />
       </a>
@@ -75,7 +75,7 @@ exports[`Navigation matches snapshot 1`] = `
           </h2>
           <img
             alt="logo"
-            class="h-7 w-7 ml-2 mr-3 animate-pulse"
+            class="h-7 w-7 ml-2 mr-6 animate-pulse"
             src="/assets/butterfly.svg"
           />
         </a>
