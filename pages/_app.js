@@ -10,14 +10,14 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <DefaultSeo
-        titleTemplate="%s | Ameira Yanni"
-        description="Ameira Yanni - Copywriter, actor and creative in Southampton, England."
+        titleTemplate="%s | Taru Goswami"
+        description="Taru Goswami - content creator, philocalist and creative in Bengaluru, India."
         openGraph={{
           type: 'website',
           locale: 'en_IE',
-          url: 'https://ameira.me/',
-          description: 'Ameira Yanni - Copywriter, actor and creative in Southampton, England.',
-          site_name: 'Ameira Yanni',
+          url: 'https://tarugoswami.netlify.app/',
+          description: 'Taru Goswami - content creator, philocalist and creative in Bengaluru, India.',
+          site_name: 'Taru Goswami',
           images: [
             {
               url: 'https://ameira.me/ameira.jpg',
@@ -32,8 +32,8 @@ export default function MyApp({ Component, pageProps }) {
           ],
         }}
         twitter={{
-          handle: '@AmeiraYanni',
-          site: '@AmeiraYanni',
+          handle: '@tarugoswami',
+          site: '@tarugoswami',
           cardType: 'summary_large_image',
         }}
       />

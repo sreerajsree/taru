@@ -27,7 +27,7 @@ export default function PortfolioItem(props) {
   const [viewRef, animate, setAnimationHasRun] = useAnimationOnScroll('show', scrollThreshold);
   const imgSrc = require(`../../images/portfolio/${image}?resize&size=500`);
   return (
-    <div ref={viewRef} className="flex flex-col xl:w-1/4 lg:w-33% md:w-50% p-1">
+    <div ref={viewRef} className="flex flex-col xl:w-1/4 lg:w-33% md:w-50% p-2">
       <motion.div
         initial="hide"
         animate={animate}

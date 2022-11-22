@@ -18,7 +18,7 @@ export default function AboutText({ transition, image, content }) {
         variants={variants}
         transition={transition}
         onAnimationComplete={setAnimationHasRun}
-        className="pt-12 mt-5 md:mt-12 w-full bg-grey-custom px-10 pb-10 h-full z-10"
+        className="pt-12 mt-5 md:mt-12 w-full bg-grey-custom px-7 md:px-10 pb-10 h-full z-10"
       >
         <h2 className="text-6xl font-title mb-2 md:mb-0">About Me</h2>
         <img

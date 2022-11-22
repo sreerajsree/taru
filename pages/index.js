@@ -6,6 +6,7 @@ import About from '../components/HomePage/About';
 import Portfolio from '../components/HomePage/Portfolio';
 import { getHomePage, getCompletePortfolio } from '../lib/api';
 import markdownToHtml from '../lib/markdownToHtml';
+import Instagram from '../components/Generic/Instagram';
 
 export default function Index({ home, articles }) {
   const {
@@ -35,6 +36,7 @@ export default function Index({ home, articles }) {
             mobileImage={aboutImageMobile}
           />
           <Portfolio articles={articles} />
+          <Instagram />
         </Container>
       </Layout>
     </>

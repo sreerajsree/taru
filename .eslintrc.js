@@ -23,6 +23,7 @@ module.exports = {
     'out',
   ],
   rules: {
+    'object-curly-newline': 'off',
     'linebreak-style': 0,
     'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': [1, {

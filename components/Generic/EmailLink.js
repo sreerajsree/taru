@@ -1,3 +1,10 @@
 export default function EmailLink({ className }) {
-  return <a className={className} href="mailto:a@ameira.me?subject=Saying%20hello%20from%20the%20website&body=Hi Ameira,">a@ameira.me</a>;
+  return (
+    <div className="inline-flex">
+      <a className={className} href="/">
+        <h2>Taru Goswami </h2>
+        <img src="/assets/butterfly.svg" className="h-7 w-7 ml-2 mr-3 animate-pulse" alt="logo" />
+      </a>
+    </div>
+  );
 }

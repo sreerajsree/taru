@@ -21,7 +21,7 @@ export default function Navigation() {
       href: '/',
     },
     {
-      text: 'Portfolio',
+      text: 'Blog',
       href: '/portfolio',
     },
   ];
@@ -61,11 +61,11 @@ export default function Navigation() {
         className="flex fixed w-screen h-screen md:w-full md:h-auto justify-center items-center pt-8 pb-8 md:pr-12 text-lg z-50 font-nav flex-col-reverse md:flex-row bg-opacity-1 md:bg-opacity-0 bg-white"
       >
         <Cross onClick={closeMenu} />
-        <div className="mb-24 md:mb-0 md:ml-12 p-4 bg-opacity-0 md:bg-opacity-nav bg-white tracking-wider justify-center md:justify-left">
-          <EmailLink />
+        <div className="hidden md:flex rounded-2xl text-xl whitespace-nowrap mb-24 md:mb-0 md:ml-12 p-4 bg-opacity-0 md:bg-opacity-nav bg-white tracking-wider justify-center md:justify-left">
+          <EmailLink className="flex items-center" />
         </div>
         <div className="flex justify-center md:justify-end w-full">
-          <ul className="pb-4 md:p-4 bg-opacity-0 md:bg-opacity-nav bg-white flex justify-center items-center flex-col md:flex-row">
+          <ul className="rounded-2xl pb-4 md:p-4 bg-opacity-0 md:bg-opacity-nav bg-white flex justify-center items-center flex-col md:flex-row">
             {links.map(({
               text, href, scrollTo, external,
             }) => (

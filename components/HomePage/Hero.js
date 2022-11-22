@@ -55,7 +55,7 @@ export default function Hero({ title, tagline, backgroundImage }) {
           variants={paragraphAnimation}
           initial="hidden"
           animate="visible"
-          className="block mt-5 mb-20 flex items-center text-xl"
+          className="mt-5 mb-20 flex items-center text-xl"
         >
           {renderTagline(tagline)}
         </motion.p>
