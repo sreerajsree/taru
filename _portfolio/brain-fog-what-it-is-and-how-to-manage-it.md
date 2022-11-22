@@ -7,7 +7,7 @@ excerpt: At some point in the new millennium, the verb ‘curate’ began appear
   hiking snacks to twitter feeds to cured meats—any type of collection. (Though,
   who doesn’t enjoy a thoughtful display of cured meats?)
 date: 2022-11-22T19:56
-image: /images/portfolio/larm-rmah-d_xyw57npuw-unsplash.jpg
+image: what-is-curating-2.jpg
 tags:
   - art
 ---
