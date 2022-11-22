@@ -24,7 +24,7 @@ export default function AboutText({ transition, image, content }) {
         <img
           src={src}
           srcSet={srcSet}
-          alt="Ameira"
+          alt="Taru Goswami"
           className="md:hidden object-cover mb-2 md:mb-2"
         />
         <PrintMarkdownHTML content={content} about />

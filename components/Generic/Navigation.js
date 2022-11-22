@@ -44,12 +44,15 @@ export default function Navigation() {
   const transition = {
     type: 'spring',
     mass: 0.7,
-    damping: (isMobile) ? 13 : 10,
-    delay: (isMobile) ? 0 : 0.5,
+    damping: isMobile ? 13 : 10,
+    delay: isMobile ? 0 : 0.5,
   };
 
   return (
     <>
+      <div className="block md:hidden font-title fixed text-xl font-semibold whitespace-nowrap tracking-wider p-5 z-50 top-3 left-0">
+        <EmailLink className="flex items-center" />
+      </div>
       <Hamburger onClick={openMenu} />
       <motion.nav
         // If internal link, don't reanimate the nav bar
@@ -66,9 +69,7 @@ export default function Navigation() {
         </div>
         <div className="flex justify-center md:justify-end w-full">
           <ul className="text-xl rounded-2xl pb-4 md:p-4 bg-opacity-0 md:bg-opacity-nav bg-white flex justify-center items-center flex-col md:flex-row">
-            {links.map(({
-              text, href, scrollTo, external,
-            }) => (
+            {links.map(({ text, href, scrollTo, external }) => (
               <NavigationLink
                 key={`nav-link-${text}`}
                 closeMenu={closeMenu}

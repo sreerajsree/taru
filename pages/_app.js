@@ -20,13 +20,13 @@ export default function MyApp({ Component, pageProps }) {
           site_name: 'Taru Goswami',
           images: [
             {
-              url: 'https://ameira.me/taru.jpg',
+              url: 'https://tarugoswami.netlify.app/taru.jpg',
               width: 800,
               height: 512,
               alt: 'Taru Goswami',
             },
             {
-              url: 'https://ameira.me/logo.png',
+              url: 'https://tarugoswami.netlify.app/logo.png',
               alt: 'Taru Goswami Logo',
             },
           ],

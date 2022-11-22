@@ -21,9 +21,9 @@ export default function Index({ home, articles }) {
     <>
       <NextSeo
         title="Home"
-        canonical="https://ameira.me"
+        canonical="https://tarugoswami.netlify.app"
         openGraph={{
-          url: 'https://ameira.me',
+          url: 'https://tarugoswami.netlify.app',
           title: 'Home',
         }}
       />

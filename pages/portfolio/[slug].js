@@ -21,7 +21,7 @@ export default function Post({ post }) {
     slug,
     tags,
   } = post;
-  const canonical = `https://ameira.me/${slug}`;
+  const canonical = `https://tarugoswami.netlify.app/${slug}`;
   const { src, srcSet } = require(`../../images/portfolio/${image}?resize&sizes[]=250&sizes[]=500&sizes[]=800`);
   return (
     <>
@@ -35,18 +35,18 @@ export default function Post({ post }) {
           description,
           images: [
             {
-              url: `https://ameira.me${src}`,
+              url: `https://tarugoswami.netlify.app${src}`,
               alt: title,
             },
             {
-              url: 'https://ameira.me/ameira.jpg',
+              url: 'https://tarugoswami.netlify.app/taru.jpg',
               width: 800,
               height: 512,
-              alt: 'Ameira Yanni',
+              alt: 'Taru Goswami',
             },
             {
-              url: 'https://ameira.me/logo.png',
-              alt: 'AY Logo',
+              url: 'https://tarugoswami.netlify.app/logo.png',
+              alt: 'Taru Logo',
             },
           ],
           article: {

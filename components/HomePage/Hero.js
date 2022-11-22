@@ -50,7 +50,7 @@ export default function Hero({ title, tagline, backgroundImage }) {
           backgroundImage: `url('${image}')`,
         }}
       >
-        <h1 className="text-center text-7xl block">{title}</h1>
+        <h1 className="text-center text-6xl md:text-7xl block">{title}</h1>
         <motion.p
           variants={paragraphAnimation}
           initial="hidden"

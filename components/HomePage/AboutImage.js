@@ -22,7 +22,7 @@ export default function AboutImage({ transition, image }) {
         <img
           src={src}
           srcSet={srcSet}
-          alt="Ameira"
+          alt="Taru Goswami"
           className="hidden md:block absolute z-0 object-cover w-overlap h-overlap max-w-overlap"
           data-testid="about-image"
         />
