@@ -13,15 +13,16 @@ export default function Index({ articles }) {
         openGraph={{
           url: 'https://tarugoswami.netlify.app/portfolio',
           title: 'Blog',
-          description: 'Taru Goswami\'s Blog documenting works that she has crafted while working as either a content creator, actor or creative.',
+          description:
+            "Taru Goswami's Blog documenting works that she has crafted while working as either a content creator, actor or philocalist.",
         }}
       />
       <div className="pt-12 md:pt-24 text-center mb-4 md:mb-10">
         <h1 className="font-title text-7xl text-pink-custom mb-4">Blog</h1>
         <p className="font-body text-base mx-4 md:mx-16 lg:mx-32">
-          They vary from personal blogs to commissioned articles – and everything in between.
-          If you have any questions or would like to chat about a piece,
-          please feel free to contact me.
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry&apos;s standard dummy text
+          ever
         </p>
       </div>
       <Portfolio articles={articles} />

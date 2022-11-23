@@ -13,7 +13,7 @@ exports[`Navigation matches snapshot 1`] = `
         href="/"
       >
         <h2
-          class="text-xl md:text-2xl"
+          class="text-xl"
         >
           Taru Goswami 
         </h2>
@@ -59,7 +59,7 @@ exports[`Navigation matches snapshot 1`] = `
       />
     </div>
     <div
-      class="hidden md:flex rounded-2xl text-xl whitespace-nowrap mb-24 md:mb-0 md:ml-12 p-4 bg-opacity-0 md:bg-opacity-nav bg-white tracking-wider justify-center md:justify-left"
+      class="hidden md:flex rounded-2xl text-lg whitespace-nowrap mb-24 md:mb-0 md:ml-12 p-4 bg-opacity-0 md:bg-opacity-nav bg-white tracking-wider justify-center md:justify-left"
     >
       <div
         class="inline-flex"
@@ -69,7 +69,7 @@ exports[`Navigation matches snapshot 1`] = `
           href="/"
         >
           <h2
-            class="text-xl md:text-2xl"
+            class="text-xl"
           >
             Taru Goswami 
           </h2>

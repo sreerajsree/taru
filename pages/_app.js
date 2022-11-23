@@ -11,12 +11,12 @@ export default function MyApp({ Component, pageProps }) {
     <>
       <DefaultSeo
         titleTemplate="%s | Taru Goswami"
-        description="Taru Goswami - content creator, philocalist and creative in Bengaluru, India."
+        description="Taru Goswami - content creator in Bengaluru, India."
         openGraph={{
           type: 'website',
           locale: 'en_IE',
           url: 'https://tarugoswami.netlify.app/',
-          description: 'Taru Goswami - content creator, philocalist and creative in Bengaluru, India.',
+          description: 'Taru Goswami - content creator in Bengaluru, India.',
           site_name: 'Taru Goswami',
           images: [
             {
